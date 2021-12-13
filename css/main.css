@@ -8,19 +8,87 @@
    License: none (public domain)
 */
 /* line 18, ../scss/base/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,8 +99,17 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 /* line 28, ../scss/base/_reset.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -42,19 +119,23 @@ body {
 }
 
 /* line 34, ../scss/base/_reset.scss */
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
 /* line 37, ../scss/base/_reset.scss */
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
 /* line 41, ../scss/base/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -166,7 +247,8 @@ p {
   background-color: #f2013f;
 }
 /* line 28, ../scss/layout/_nav.scss */
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
   background-color: #d90138;
 }
 /* line 32, ../scss/layout/_nav.scss */
@@ -320,7 +402,7 @@ p {
 /* line 85, ../scss/modules/_blocks.scss */
 .team-member-desc-heading span {
   font-size: 18px;
-  color: #F2013F;
+  color: #f2013f;
 }
 
 /*map*/
@@ -345,7 +427,9 @@ p {
 }
 /* line 12, ../scss/modules/_buttons.scss */
 .custom-button:hover {
-  background-color: #d90138;
+  background-color: #fff;
+  color: #090909;
+  transform: scale(1.1);
 }
 
 /* line 1, ../scss/modules/_sections.scss */
@@ -389,6 +473,9 @@ p {
 /* line 38, ../scss/modules/_sections.scss */
 .services {
   background-color: #f2013f;
+}
+.services h2{
+ font-size: 52px;
 }
 
 /*cta*/
@@ -586,7 +673,7 @@ p {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #F2013F;
+  background-color: #f2013f;
 }
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
@@ -634,7 +721,9 @@ p {
 }
 
 /* line 8, ../scss/modules/_forms.scss */
-label, input, textarea {
+label,
+input,
+textarea {
   display: block;
   width: 100%;
   outline: none;
@@ -647,7 +736,8 @@ label {
 }
 
 /* line 19, ../scss/modules/_forms.scss */
-input, textarea {
+input,
+textarea {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
   padding: 10px 5px;
@@ -668,8 +758,8 @@ input.custom-button {
 
 /* line 36, ../scss/modules/_forms.scss */
 label.local-error {
-  background-color: #FCF8E3;
-  color: #C74581;
+  background-color: #fcf8e3;
+  color: #c74581;
   font-weight: 300;
   font-size: 12px;
   margin-top: -10px;
@@ -680,7 +770,7 @@ label.local-error {
 
 /* line 1, ../scss/modules/_tables.scss */
 table {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 12px;
   color: #444;
   width: 100%;
@@ -847,7 +937,8 @@ table tr td:first-of-type {
   }
 
   /* line 32, ../scss/layout/responsive/_laptop.scss */
-  .team-member-img, .team-member-contact {
+  .team-member-img,
+  .team-member-contact {
     max-width: 350px;
   }
 }
@@ -864,8 +955,8 @@ table tr td:first-of-type {
 }
 
 .team-member-desc {
-    margin: 0px 15px;
-    text-align: justify;
+  margin: 0px 15px;
+  text-align: justify;
 }
 
 .footer-link a:hover {
@@ -879,4 +970,130 @@ table tr td:first-of-type {
 
 .footer-text a:hover {
   text-decoration: none;
+}
+.ss {
+  display: flex;
+  justify-content: space-between;
+}
+.ss h2{
+  margin-left: -10rem;
+}
+.pages {
+  background-color: #090909;
+}
+.reviews {
+  background-color: #f2013f;
+}
+.review {
+  padding-top: 2rem;
+  margin: 4rem;
+  margin-top: 6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: -3rem;
+}
+.review .line {
+  display: none;
+}
+.featurespage {
+  background-color: #090909;
+}
+.page {
+ 
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.xx {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10rem;
+}
+.pp {
+  display: flex;
+  justify-content: center;
+}
+.gg {
+  display: flex;
+  justify-content: center;
+}
+
+.feature1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.feature1 .head h2 {
+  color: white;
+}
+.features {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+   
+  
+  justify-content: center;
+  padding: 1rem;
+}
+.para {
+  padding-top: 1rem;
+}
+.test {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+ 
+
+  .features{
+    /* display: block;
+    flex-direction: column !important; */
+    display: flex;
+    flex-direction: column;
+  }
+ .feature2{
+   display: none;
+ }
+  .features .feature1 .para{
+    font-size: 16px !important;
+  }
+  .ss h2{
+    font-size: 24px!important;
+    margin-left: 1rem;
+   
+    
+  }
+  .test{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 20px;
+  }
+  .review {
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+  }
+}
+#cta-aboutus {
+  background-color: #f2013f;
+}
+.custom-button-aboutus{
+  font-family: "Open sans", "Sans Serif";
+  border-radius: 0;
+  height: 60px;
+  background-color: #090909;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.custom-button-aboutus:hover {
+  background-color: #fff;
+  color: #090909;
+  transform: scale(1.1);
 }
